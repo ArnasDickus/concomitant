@@ -2,6 +2,16 @@
 
 /* Add only variables */
 
+$main_green: #81b300;
+
+/* Header */
+$title_black: #333333;
+$subtitles_grey: #999999;
+
+/* Navbar */
+$nav_color: #ffffff;
+$nav_hover: #000000;
+
 /*  Font-Size */
 $base_font_size: 1em;
 

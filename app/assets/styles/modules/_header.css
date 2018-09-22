@@ -1,0 +1,46 @@
+
+
+
+
+
+.header{
+  border-top: 5px solid $main_green;
+  width: 100%;
+
+  /* Title Block */
+
+  &__title-block{
+    float: left;
+    padding-top: 2.25rem;
+  }
+  &__title{
+    text-transform: uppercase;
+    color: $title_black;
+    font-size: 2.1875rem;
+  }
+  &__subtitles{
+    color: $subtitles_grey;
+  }
+
+  /* Logo block */
+  &__logo-block{
+    float: right;
+
+  }
+  &__icon-block{
+    background-color: $main_green;
+    padding-top: 7px;
+
+    a{
+      padding-right: 1.0625rem;
+    }
+    a:last-child{
+      padding-right: 0;
+    }
+  }
+&--clear-float{
+  clear: both;
+}
+
+
+}

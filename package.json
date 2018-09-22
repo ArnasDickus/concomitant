@@ -1,10 +1,13 @@
 {
-  "name": "front-end-template",
+  "name": "concomitant",
   "version": "1.0.0",
-  "description": "",
+  "description": "first serious baltic talent front end project",
   "main": "app",
   "directories": {
     "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@babel/core": "7.0.0",
@@ -38,17 +41,14 @@
     "postcss-nested": "3.0.0",
     "postcss-simple-vars": "4.1.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArnasDickus/front-end-template.git"
+    "url": "git+https://github.com/ArnasDickus/concomitant.git"
   },
-  "author": "",
+  "author": "Arnas Dickus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArnasDickus/front-end-template/issues"
+    "url": "https://github.com/ArnasDickus/concomitant/issues"
   },
-  "homepage": "https://github.com/ArnasDickus/front-end-template#readme"
+  "homepage": "https://github.com/ArnasDickus/concomitant#readme"
 }
