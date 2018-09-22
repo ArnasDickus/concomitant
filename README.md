@@ -1,4 +1,4 @@
-# cryptounity
+# concomitant
 
 Concomitant, first Balticum talents serious project. Modified to reflect my skills.
 
