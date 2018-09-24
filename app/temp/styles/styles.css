@@ -763,3 +763,52 @@ Instead edit gulp/templates/sprite */
   margin: 0 auto;
    /* border: solid #000000 30px;  */
 }
+
+.main-navigation{
+  /* Basic styling */
+  background-color: #81b300;
+  padding: 1.4375rem;
+  margin-top: 1.6875rem;
+}
+
+.main-navigation a{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      padding-right: 1rem;
+
+    }
+
+.main-navigation a:hover{
+      color: #000000;
+    }
+
+.main-navigation ul{
+      list-style-type: none;
+       margin: 0;
+       padding: 0;
+       display: inline-block;
+    }
+
+.main-navigation li{
+      display: inline;
+    }
+
+/* Input */
+
+.main-navigation__search-website{
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid #dddddd;
+        width: 31.5%;
+    }
+
+.main-navigation__button{
+      display:inline-block;
+      color: #81b300;
+      margin-left: -5.1875rem;
+     background-color: transparent;
+     padding: 4px;
+
+    }

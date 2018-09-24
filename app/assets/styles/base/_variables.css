@@ -11,6 +11,9 @@ $subtitles_grey: #999999;
 /* Navbar */
 $nav_color: #ffffff;
 $nav_hover: #000000;
+$nav_text: #ffffff;
+$hover_text_color: #000000;
+$search_bar_border: #dddddd;
 
 /*  Font-Size */
 $base_font_size: 1em;

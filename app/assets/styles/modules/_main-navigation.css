@@ -1,0 +1,46 @@
+
+
+
+.main-navigation{
+  /* Basic styling */
+  background-color: $main_green;
+  padding: 1.4375rem;
+  margin-top: 1.6875rem;
+
+    a{
+      text-decoration: none;
+      color: $nav_text;
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      padding-right: 1rem;
+
+    }
+    a:hover{
+      color: $hover_text_color;
+    }
+
+    ul{
+      list-style-type: none;
+       margin: 0;
+       padding: 0;
+       display: inline-block;
+    }
+    li{
+      display: inline;
+    }
+    /* Input */
+    &__search-website{
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid $search_bar_border;
+        width: 31.5%;
+    }
+    &__button{
+      display:inline-block;
+      color: $main_green;
+      margin-left: -5.1875rem;
+     background-color: transparent;
+     padding: 4px;
+
+    }
+}
