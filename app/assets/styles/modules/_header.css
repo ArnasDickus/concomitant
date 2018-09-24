@@ -11,15 +11,23 @@
 
   &__title-block{
     float: left;
-    padding-top: 2.25rem;
+    padding-top: 1.75rem;
   }
   &__title{
     text-transform: uppercase;
     color: $title_black;
-    font-size: 2.1875rem;
+    font-size: 2.325rem;
+    margin-bottom: 0;
+    margin-top: 0;
+     font-family: Georgia, Times, "Times New Roman";
+    font-weight: 200;
+
   }
   &__subtitles{
+    margin-top: 0;
     color: $subtitles_grey;
+    line-height: 0.9;
+    font-size: 0.75rem;
   }
 
   /* Logo block */
@@ -30,14 +38,62 @@
   &__icon-block{
     background-color: $main_green;
     padding-top: 7px;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+
 
     a{
-      padding-right: 1.0625rem;
+      padding-left: 0.825rem;
+      text-decoration: none;
+      padding-right: 1rem;
     }
-    a:last-child{
-      padding-right: 0;
+  
+    a:first-child{
+      padding-left: 0;
     }
+
   }
+  /* Icon Hover effect */
+  /* Linkedin */
+  &__change-linkedin-icon:hover &--linkedin-unlock,
+  &__change-linkedin-icon &--linkedin-lock {
+    display: none;
+  }
+  &__change-linkedin-icon:hover &--linkedin-lock{
+      display: inline;
+    }
+/* Twitter */
+    &__change-twitter-icon:hover &--twitter-unlock,
+    &__change-twitter-icon &--twitter-lock {
+      display: none;
+    }
+    &__change-twitter-icon:hover &--twitter-lock{
+        display: inline;
+      }
+  /* Google */
+    &__change-google-icon:hover &--google-unlock,
+    &__change-google-icon &--google-lock {
+      display: none;
+    }
+    &__change-google-icon:hover &--google-lock{
+        display: inline;
+      }
+    /* Pinterest */
+    &__change-pinterest-icon:hover &--pinterest-unlock,
+    &__change-pinterest-icon &--pinterest-lock {
+      display: none;
+    }
+    &__change-pinterest-icon:hover &--pinterest-lock{
+        display: inline;
+      }
+    /* RSS Feed */
+    &__change-web-icon:hover &--web-unlock,
+    &__change-web-icon &--web-lock {
+      display: none;
+    }
+    &__change-web-icon:hover &--web-lock{
+        display: inline;
+      }
 &--clear-float{
   clear: both;
 }

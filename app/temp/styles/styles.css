@@ -473,8 +473,9 @@ template {
 
 body {
   font-family: 'Roboto', sans-serif;
-  
 
+
+  text-align: center;
 
   font-size: 1em;
   line-height: 1.5;
@@ -564,17 +565,25 @@ Instead edit gulp/templates/sprite */
 
 .header__title-block{
     float: left;
-    padding-top: 2.25rem;
+    padding-top: 1.75rem;
   }
 
 .header__title{
     text-transform: uppercase;
     color: #333333;
-    font-size: 2.1875rem;
+    font-size: 2.325rem;
+    margin-bottom: 0;
+    margin-top: 0;
+     font-family: Georgia, Times, "Times New Roman";
+    font-weight: 200;
+
   }
 
 .header__subtitles{
+    margin-top: 0;
     color: #999999;
+    line-height: 0.9;
+    font-size: 0.75rem;
   }
 
 /* Logo block */
@@ -587,29 +596,90 @@ Instead edit gulp/templates/sprite */
 .header__icon-block{
     background-color: #81b300;
     padding-top: 7px;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+
   }
 
 .header__icon-block a{
-      padding-right: 1.0625rem;
+      padding-left: 0.825rem;
+      text-decoration: none;
+      padding-right: 1rem;
     }
 
-.header__icon-block a:last-child{
-      padding-right: 0;
+.header__icon-block a:first-child{
+      padding-left: 0;
     }
+
+/* Linkedin */
+
+.header__change-linkedin-icon:hover .header--linkedin-unlock,
+  .header__change-linkedin-icon .header--linkedin-lock {
+    display: none;
+  }
+
+/* Icon Hover effect */
+
+.header__change-linkedin-icon:hover .header--linkedin-lock{
+      display: inline;
+    }
+
+/* Twitter */
+
+.header__change-twitter-icon:hover .header--twitter-unlock,
+    .header__change-twitter-icon .header--twitter-lock {
+      display: none;
+    }
+
+.header__change-twitter-icon:hover .header--twitter-lock{
+        display: inline;
+      }
+
+/* Google */
+
+.header__change-google-icon:hover .header--google-unlock,
+    .header__change-google-icon .header--google-lock {
+      display: none;
+    }
+
+.header__change-google-icon:hover .header--google-lock{
+        display: inline;
+      }
+
+/* Pinterest */
+
+.header__change-pinterest-icon:hover .header--pinterest-unlock,
+    .header__change-pinterest-icon .header--pinterest-lock {
+      display: none;
+    }
+
+.header__change-pinterest-icon:hover .header--pinterest-lock{
+        display: inline;
+      }
+
+/* RSS Feed */
+
+.header__change-web-icon:hover .header--web-unlock,
+    .header__change-web-icon .header--web-lock {
+      display: none;
+    }
+
+.header__change-web-icon:hover .header--web-lock{
+        display: inline;
+      }
 
 .header--clear-float{
   clear: both;
 }
 
 .wrapper{
-  padding-left: 3.125rem;
-  padding-right: 3.125rem;
+  padding-left: 1.6875rem;
+  padding-right: 1.875rem;
 
 }
 
 .wrapper__icon{
-
-    padding-left: 1.75rem;
+    padding-left: 0.825rem;
 
 
   }
@@ -619,6 +689,9 @@ Instead edit gulp/templates/sprite */
 .login-navbar a{
       text-decoration: none;
       color: #81b300;
+      font-size: 0.75rem;
+
+
     }
 
 .login-navbar ul{
@@ -629,15 +702,13 @@ Instead edit gulp/templates/sprite */
 
 .login-navbar li{
       display: inline;
-      border-right: 1px solid #81b300;
       padding-right: 5px;
-      padding-left: 5px
-
-
+      padding-left: 5px;
+      border-right: 1px solid #81b300;
     }
 
 .login-navbar li:last-child{
-      border-right: 0;
+        border-right: 0;
       padding-right: 0;
       padding-left: 0;
     }
@@ -645,7 +716,7 @@ Instead edit gulp/templates/sprite */
 /* Adjusting padding  */
 
 .login-navbar--padding-top{
-      padding-top: 2.3125rem;
+      padding-top: 1.9rem;
     }
 
 /* Background */
@@ -685,3 +756,10 @@ Instead edit gulp/templates/sprite */
 .navigation-menu__search-bar{
     display: inline-block;
   }
+
+.page-wrap {
+  text-align: left;
+  width: 62.5rem;
+  margin: 0 auto;
+   /* border: solid #000000 30px;  */
+}
