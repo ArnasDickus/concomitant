@@ -5,10 +5,12 @@ Concomitant, first Balticum talents serious project. Modified to reflect my skil
 Live version currently unavailable. Live version will be available as soon as project is finished
 
 ## Total time spent on this project
+```
 35 minutes 09-25-2018 (branch slideshow)
 1h 22minutes 09-25-2018 (branch table-row)
 52min 09-25-2018 (branch project-title-table)
 1h:18min 09-25-2018 (branch contact-info )
+```
 ## Bugs or not implemented features.
 ```
 Major:
