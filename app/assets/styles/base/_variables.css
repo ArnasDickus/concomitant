@@ -32,6 +32,9 @@ $contact_description_text: #999999;
 $contact_hr: #484848;
 $inputs_bg: #1f1f1f;
 
+/* Footer  */
+$footer_black: #2e2e2e;
+$footer_text: #737373;
 /*  Font-Size */
 $base_font_size: 1em;
 

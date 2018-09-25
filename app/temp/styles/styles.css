@@ -461,6 +461,8 @@ template {
 
 /* contact */
 
+/* Footer  */
+
 /*  Font-Size */
 
 /*  Line-Height */
@@ -1010,4 +1012,28 @@ Instead edit gulp/templates/sprite */
 
 .button--color-green{
       color: #81b300;
+    }
+
+.footer{
+    padding: 9px;
+    background-color: #2e2e2e;
+}
+
+.footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer__left{
+      font-size: 12px;
+      float: left;
+      width: 50%;
+      color: #737373;
+    }
+
+.footer__right{
+      font-size: 12px;
+      float: right;
+      color: #737373;
     }

@@ -1,0 +1,18 @@
+
+.footer{
+    padding: 9px;
+    background-color: $footer_black;
+    @mixin clearfix;
+
+    &__left{
+      font-size: 12px;
+      float: left;
+      width: 50%;
+      color: $footer_text;
+    }
+    &__right{
+      font-size: 12px;
+      float: right;
+      color: $footer_text;
+    }
+}
