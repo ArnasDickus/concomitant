@@ -1,0 +1,17 @@
+.reason-table{
+      border-bottom: 1px solid $dark_border;
+      padding-bottom: 2.125rem;
+  &__icon{
+    text-align: center;
+  }
+  &__title{
+    color: $title_green;
+    font-size: 1.125rem;
+  }
+  &__subtitles{
+    text-align: justify;
+    font-size: 0.8125rem;
+    text-indent: 0.875rem;
+
+  }
+}

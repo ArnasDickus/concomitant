@@ -1,0 +1,15 @@
+.row{
+@mixin clearfix;
+
+  &__large-4{
+    float: left;
+    width: 25%;
+
+    
+  }
+  &__gutter{
+    padding-right: 14px;
+      padding-left: 9px;
+  }
+
+}

@@ -455,6 +455,8 @@ template {
 
 /* slideshow */
 
+/* Table  */
+
 /*  Font-Size */
 
 /*  Line-Height */
@@ -675,7 +677,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .wrapper{
-  padding-left: 1.6875rem;
+  padding-left: 2rem;
   padding-right: 1.875rem;
 
 }
@@ -763,9 +765,9 @@ Instead edit gulp/templates/sprite */
 
 .page-wrap {
   text-align: left;
-  width: 62.5rem;
+  width: 60rem;
   margin: 0 auto;
-   /* border: solid #000000 30px;  */
+   border: solid #000000 30px;
 }
 
 .main-navigation{
@@ -854,3 +856,42 @@ Instead edit gulp/templates/sprite */
       background-color: #f2f2f2;
       padding-top: 2.4375rem;
     }
+
+.reason-table{
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 2.125rem;
+}
+
+.reason-table__icon{
+    text-align: center;
+  }
+
+.reason-table__title{
+    color: #89b810;
+    font-size: 1.125rem;
+  }
+
+.reason-table__subtitles{
+    text-align: justify;
+    font-size: 0.8125rem;
+    text-indent: 0.875rem;
+
+  }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row__large-4{
+    float: left;
+    width: 25%;
+
+    
+  }
+
+.row__gutter{
+    padding-right: 14px;
+      padding-left: 9px;
+  }

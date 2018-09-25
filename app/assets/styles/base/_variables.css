@@ -18,8 +18,12 @@ $search_bar_border: #dddddd;
 /* slideshow */
 $slideshow_bg: #333333;
 
+/* Table  */
+$title_green: #89b810;
+$dark_border: #e2e2e2;
 /*  Font-Size */
 $base_font_size: 1em;
+
 
 /*  Line-Height */
 $base_line_height: 1.5;
