@@ -12,7 +12,7 @@
       color: $nav_text;
       font-size: 0.8125rem;
       text-transform: uppercase;
-      padding-right: 1rem;
+      padding-right: 0.8125rem;
 
     }
     a:hover{
@@ -36,14 +36,7 @@
       display: inline-block;
       padding: 7.5px;
       border: 1px solid $search_bar_border;
-        width: 31.5%;
+      width: 30.5%;
     }
-    &__button{
-      display:inline-block;
-      color: $main_green;
-      margin-left: -5.5rem;
-     background-color: transparent;
-     padding: 7px;
 
-    }
 }

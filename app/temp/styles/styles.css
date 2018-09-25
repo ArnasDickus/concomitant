@@ -693,7 +693,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .wrapper__navbar{
-    padding-left: 1.6875rem;
+    padding-left: 0.5625rem;
   }
 
 /* Basic styling */
@@ -770,8 +770,9 @@ Instead edit gulp/templates/sprite */
   }
 
 .page-wrap {
+  
   text-align: left;
-  width: 60rem;
+  width: 62.5rem;
   margin: 0 auto;
    border-bottom: solid #000000 30px;
    border-top: solid #000000 30px;
@@ -784,6 +785,7 @@ Instead edit gulp/templates/sprite */
   background-color: #81b300;
   padding: 1.4375rem;
   margin-top: 1.6875rem;
+
 }
 
 .main-navigation a{
@@ -791,7 +793,7 @@ Instead edit gulp/templates/sprite */
       color: #ffffff;
       font-size: 0.8125rem;
       text-transform: uppercase;
-      padding-right: 1rem;
+      padding-right: 0.8125rem;
 
     }
 
@@ -820,16 +822,7 @@ Instead edit gulp/templates/sprite */
       display: inline-block;
       padding: 7.5px;
       border: 1px solid #dddddd;
-        width: 31.5%;
-    }
-
-.main-navigation__button{
-      display:inline-block;
-      color: #81b300;
-      margin-left: -5.5rem;
-     background-color: transparent;
-     padding: 7px;
-
+      width: 30.5%;
     }
 
 .slideshow{
@@ -1000,7 +993,7 @@ Instead edit gulp/templates/sprite */
 .button{
 
   background-color: #1f1f1f;
-  color: #FFF;
+
   text-decoration: none;
   padding: 4px 10px;
   display: inline-block;
@@ -1012,6 +1005,16 @@ Instead edit gulp/templates/sprite */
 
 .button--color-green{
       color: #81b300;
+    }
+
+.button__inline{
+      display: inline-block;
+      margin-left: -75px;
+      padding: 6px 6px;
+      color: #81b300;
+      background-color: #ffffff;
+      border-left: 1px solid #dddddd;
+      font-size: 0.75rem;
     }
 
 .footer{

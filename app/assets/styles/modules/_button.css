@@ -1,7 +1,7 @@
 .button{
 
   background-color: #1f1f1f;
-  color: #FFF;
+
   text-decoration: none;
   padding: 4px 10px;
   display: inline-block;
@@ -10,5 +10,14 @@
     }
     &--color-green{
       color: $main_green;
+    }
+    &__inline{
+      display: inline-block;
+      margin-left: -75px;
+      padding: 6px 6px;
+      color: $main_green;
+      background-color: #ffffff;
+      border-left: 1px solid #dddddd;
+      font-size: 0.75rem;
     }
 }
