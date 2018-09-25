@@ -1,0 +1,14 @@
+.button{
+
+  background-color: #1f1f1f;
+  color: #FFF;
+  text-decoration: none;
+  padding: 4px 10px;
+  display: inline-block;
+    &--border-radius{
+      border-radius: 5px;
+    }
+    &--color-green{
+      color: $main_green;
+    }
+}

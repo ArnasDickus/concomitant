@@ -2,5 +2,8 @@
   text-align: left;
   width: 60rem;
   margin: 0 auto;
-   border: solid #000000 30px;
+   border-bottom: solid #000000 30px;
+   border-top: solid #000000 30px;
+   border-right:  solid #000000 20px;
+   border-left: solid #000000 20px;
 }

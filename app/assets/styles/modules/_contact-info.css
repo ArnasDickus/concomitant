@@ -1,0 +1,40 @@
+
+
+.contact-info{
+    background-color: $contact_bg_color;
+    &__title{
+      text-transform: uppercase;
+      color: $dark_title;
+      font-size: 0.8125rem;
+
+    }
+    &__description{
+      font-size: 12px;
+      color: $contact_description_text;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    &__hr{
+      border: solid 1px $contact_hr;
+      width:90%;
+      margin:0 ;
+    }
+    &__blog-title{
+      font-size: 0.8125rem;
+      color: $contact_description_text;
+    }
+    &__input{
+      margin-bottom: 0.625rem;
+    }
+    &__inputs{
+      padding-bottom: 0.625rem;
+    }
+
+    input, textarea {
+    background-color : $inputs_bg;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 6px
+  }
+
+}

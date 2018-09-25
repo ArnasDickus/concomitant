@@ -22,8 +22,16 @@ $slideshow_bg: #333333;
 $title_green: #89b810;
 $dark_border: #e2e2e2;
 
-/* Projec title */
+/* Project title */
 $black_title: #444444;
+
+/* contact */
+$dark_title: #666666;
+$contact_bg_color: #3b3b3b;
+$contact_description_text: #999999;
+$contact_hr: #484848;
+$inputs_bg: #1f1f1f;
+
 /*  Font-Size */
 $base_font_size: 1em;
 
