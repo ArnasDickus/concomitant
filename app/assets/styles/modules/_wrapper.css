@@ -4,8 +4,9 @@
 
   &__icon{
     padding-left: 0.825rem;
-
-
+  }
+  &__navbar{
+    padding-left: 1.6875rem;
   }
 
 }

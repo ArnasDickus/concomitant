@@ -453,6 +453,8 @@ template {
 
 /* Navbar */
 
+/* slideshow */
+
 /*  Font-Size */
 
 /*  Line-Height */
@@ -680,8 +682,10 @@ Instead edit gulp/templates/sprite */
 
 .wrapper__icon{
     padding-left: 0.825rem;
+  }
 
-
+.wrapper__navbar{
+    padding-left: 1.6875rem;
   }
 
 /* Basic styling */
@@ -795,11 +799,15 @@ Instead edit gulp/templates/sprite */
       display: inline;
     }
 
+.main-navigation li:last-child{
+      padding-right: 3.25rem;
+    }
+
 /* Input */
 
 .main-navigation__search-website{
       display: inline-block;
-      padding: 5px;
+      padding: 7.5px;
       border: 1px solid #dddddd;
         width: 31.5%;
     }
@@ -807,8 +815,42 @@ Instead edit gulp/templates/sprite */
 .main-navigation__button{
       display:inline-block;
       color: #81b300;
-      margin-left: -5.1875rem;
+      margin-left: -5.5rem;
      background-color: transparent;
-     padding: 4px;
+     padding: 7px;
 
+    }
+
+.slideshow{
+    background-color: #333333;
+    width: 53.75rem;
+    height: 22.5rem;
+    border: 9px solid #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.slideshow__text{
+      text-align: center;
+      line-height: 22.5rem;
+      white-space: nowrap;
+      font-size: 1.625rem;
+      color: #ffffff;
+      margin-top: 0;
+    }
+
+.slideshow__controls{
+      text-align: center;
+    }
+
+.slideshow__points{
+      display: inline-block;
+
+
+    }
+
+.slideshow__points__slide{
+      background-color: #f2f2f2;
+      padding-top: 2.4375rem;
     }

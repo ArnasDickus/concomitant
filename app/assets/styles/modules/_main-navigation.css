@@ -28,19 +28,22 @@
     li{
       display: inline;
     }
+    li:last-child{
+      padding-right: 3.25rem;
+    }
     /* Input */
     &__search-website{
       display: inline-block;
-      padding: 5px;
+      padding: 7.5px;
       border: 1px solid $search_bar_border;
         width: 31.5%;
     }
     &__button{
       display:inline-block;
       color: $main_green;
-      margin-left: -5.1875rem;
+      margin-left: -5.5rem;
      background-color: transparent;
-     padding: 4px;
+     padding: 7px;
 
     }
 }

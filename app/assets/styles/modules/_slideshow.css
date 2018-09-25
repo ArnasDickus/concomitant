@@ -1,0 +1,32 @@
+.slideshow{
+    background-color: $slideshow_bg;
+    width: 53.75rem;
+    height: 22.5rem;
+    border: 9px solid #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+
+    &__text{
+      text-align: center;
+      line-height: 22.5rem;
+      white-space: nowrap;
+      font-size: 1.625rem;
+      color: $nav_color;
+      margin-top: 0;
+    }
+
+    &__controls{
+      text-align: center;
+    }
+    &__points{
+      display: inline-block;
+
+    &__slide{
+      background-color: #f2f2f2;
+      padding-top: 2.4375rem;
+    }
+
+
+    }
+
+}

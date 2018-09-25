@@ -15,6 +15,9 @@ $nav_text: #ffffff;
 $hover_text_color: #000000;
 $search_bar_border: #dddddd;
 
+/* slideshow */
+$slideshow_bg: #333333;
+
 /*  Font-Size */
 $base_font_size: 1em;
 
