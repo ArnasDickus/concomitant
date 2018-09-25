@@ -457,6 +457,8 @@ template {
 
 /* Table  */
 
+/* Projec title */
+
 /*  Font-Size */
 
 /*  Line-Height */
@@ -888,10 +890,57 @@ Instead edit gulp/templates/sprite */
     float: left;
     width: 25%;
 
-    
+
   }
 
 .row__gutter{
     padding-right: 14px;
       padding-left: 9px;
   }
+
+.row__gutter-project-title{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+.project-title{
+    text-align: center;
+
+}
+
+.project-title__bg-image{
+      width: 12.5rem;
+      height: 8.125rem;
+      color: #ffffff;
+      background-color: #333333;
+      line-height: 6.125rem;
+      white-space: nowrap;
+
+      border: solid 1px black;
+
+    }
+
+.project-title__title{
+      padding-top: 20px;
+      text-align: left;
+      color: #444444;
+      font-size: 0.875rem;
+
+    }
+
+.project-title__subtitles{
+    padding-top: 6px;
+      font-size: 13px;
+      text-align: left;
+    }
+
+.project-title__details{
+      font-size: 13px;
+      color: #81b300;
+      text-align: right;
+    }
+
+.project-title__details a{
+        text-decoration: none;
+        color: #81b300;
+      }

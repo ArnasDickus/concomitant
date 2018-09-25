@@ -1,0 +1,38 @@
+  .project-title{
+    text-align: center;
+
+    &__bg-image{
+      width: 12.5rem;
+      height: 8.125rem;
+      color: #ffffff;
+      background-color: $title_black;
+      line-height: 6.125rem;
+      white-space: nowrap;
+
+      border: solid 1px black;
+
+    }
+    &__title{
+      padding-top: 20px;
+      text-align: left;
+      color: $black_title;
+      font-size: 0.875rem;
+
+    }
+    &__subtitles{
+    padding-top: 6px;
+      font-size: 13px;
+      text-align: left;
+    }
+    &__details{
+      font-size: 13px;
+      color: $main_green;
+      text-align: right;
+
+      a{
+        text-decoration: none;
+        color: $main_green;
+      }
+    }
+
+}
