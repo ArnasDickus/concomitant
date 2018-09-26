@@ -4,6 +4,38 @@ Concomitant, first Balticum talents serious project. Modified to reflect my skil
 
 Live version currently unavailable. Live version will be available as soon as project is finished
 
+## Total time spent on this project
+```
+35 minutes 09-25-2018 (branch slideshow)
+1h 22minutes 09-25-2018 (branch table-row)
+52min 09-25-2018 (branch project-title-table)
+1h:18min 09-25-2018 (branch contact-info )
+```
+## Bugs or not implemented features.
+```
+Major:
+1.Need to create working slideshow with javascript (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow)
+Use real pictures
+2.Need to adjust slideshow sizing
+3. My project total size was wrongly adjusted. Recheck all measurements make sure they are correct
+4. Table need to be responsive.
+Medium:
+1.Need to fix slideshow controls. Put them slightly higher.
+2.Fix slideshow background. Darker background around the picture.
+3.Change writing color to white. in send email section
+4.Create lazyloading
+Minor:
+1.When hovering over twitter icon size sligtly increase. 
+2. Title design need borders
+3. Add space in project title name.
+4. Search button left border shorter then it should be.
+```
+Bug Fixed
+```
+Minor:
+1.Search bar dosen't seem quite right. 09/26/2018
+2.Title shorter then in design. 09/26/2018
+```
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
