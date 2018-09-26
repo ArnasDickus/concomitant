@@ -6,6 +6,15 @@
     margin-right: auto;
     margin-left: auto;
 
+    &__bg{
+      background-color: #f2f2f2;
+      padding-top: 1.3125rem;
+      margin-bottom: 2.875rem;
+
+
+
+    }
+
     &__text{
       text-align: center;
       line-height: 22.5rem;
@@ -17,6 +26,9 @@
 
     &__controls{
       text-align: center;
+      padding-top:21px;
+      padding-bottom: 21px;
+
     }
     &__points{
       display: inline-block;

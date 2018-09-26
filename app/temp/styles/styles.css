@@ -835,6 +835,15 @@ Instead edit gulp/templates/sprite */
 
 }
 
+.slideshow__bg{
+      background-color: #f2f2f2;
+      padding-top: 1.3125rem;
+      margin-bottom: 2.875rem;
+
+
+
+    }
+
 .slideshow__text{
       text-align: center;
       line-height: 22.5rem;
@@ -846,6 +855,9 @@ Instead edit gulp/templates/sprite */
 
 .slideshow__controls{
       text-align: center;
+      padding-top:21px;
+      padding-bottom: 21px;
+
     }
 
 .slideshow__points{
@@ -901,6 +913,8 @@ Instead edit gulp/templates/sprite */
 .row__gutter-project-title{
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 2.75rem;
+
   }
 
 .project-title{
@@ -926,6 +940,8 @@ Instead edit gulp/templates/sprite */
       color: #444444;
       font-size: 0.875rem;
 
+
+
     }
 
 .project-title__subtitles{
@@ -944,6 +960,10 @@ Instead edit gulp/templates/sprite */
         text-decoration: none;
         color: #81b300;
       }
+
+.project-title--padding-bottom{
+          padding-bottom: 2.125rem;
+    }
 
 .contact-info{
     background-color: #3b3b3b;
@@ -988,6 +1008,10 @@ Instead edit gulp/templates/sprite */
     border: none;
     border-radius: 0.625rem;
     padding: 6px
+  }
+
+.contact-info--padding-bottom{
+    padding-bottom: 2.1875rem;
   }
 
 .button{

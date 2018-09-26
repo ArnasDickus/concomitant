@@ -18,6 +18,8 @@
       color: $black_title;
       font-size: 0.875rem;
 
+
+
     }
     &__subtitles{
     padding-top: 6px;
@@ -33,6 +35,9 @@
         text-decoration: none;
         color: $main_green;
       }
+    }
+    &--padding-bottom{
+          padding-bottom: 2.125rem;
     }
 
 }
