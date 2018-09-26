@@ -3,7 +3,7 @@
 Concomitant, first Balticum talents serious project. Modified to reflect my skills. 
 This project was meant to create almost identical design copy.
 
-Live version [here] (https://arnasdickus.github.io/concomitant/)
+Live version [here](https://arnasdickus.github.io/concomitant/)
 
 ## Total time spent on this project.
 ```
