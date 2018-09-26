@@ -29,12 +29,23 @@
     &__inputs{
       padding-bottom: 0.625rem;
     }
+    &__details{
+      font-size: 13px;
+    color: #81b300;
+    text-align: right;
+        margin-right: 0.6875rem;
+    }
+
+    a{
+      text-decoration: none;
+      color: #81b300;
+    }
 
     input, textarea {
     background-color : $inputs_bg;
     border: none;
     border-radius: 0.625rem;
-    padding: 6px
+    padding: 6px;
   }
   &--padding-bottom{
     padding-bottom: 2.1875rem;
