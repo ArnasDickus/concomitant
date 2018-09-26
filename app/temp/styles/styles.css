@@ -1003,11 +1003,23 @@ Instead edit gulp/templates/sprite */
       padding-bottom: 0.625rem;
     }
 
+.contact-info__details{
+      font-size: 13px;
+    color: #81b300;
+    text-align: right;
+        margin-right: 0.6875rem;
+    }
+
+.contact-info a{
+      text-decoration: none;
+      color: #81b300;
+    }
+
 .contact-info input, .contact-info textarea {
     background-color : #1f1f1f;
     border: none;
     border-radius: 0.625rem;
-    padding: 6px
+    padding: 6px;
   }
 
 .contact-info--padding-bottom{
